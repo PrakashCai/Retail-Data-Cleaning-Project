@@ -6,19 +6,15 @@ This project focuses on cleaning and preparing a "dirty" retail dataset original
 
 The goal was to transform messy, real-world data into a structured format suitable for analysis using Excel Power Query. 
 
-Input = Dirty Dataset: dirty_retail_store.csv (Original)
+Input = dirty_retail_store_sales.csv (Original)
 
-Output = Cleaned Dataset: clean_retail_store.xlsx (Final Output)
+Output = clean_retail_store_sales.xlsx (Final Output)
 
 
 License: This project uses data from Kaggle, licensed under [Insert License Name, e.g., CC BY-SA 4.0].
 
-See the LICENSE file for details.
 
-
-Tools Used :- 
-
-Power Query : Used for data transformation and cleaning. 
+Tools Used :- Power Query in Microsoft Power BI : Used for data transformation and cleaning. 
 
 
 Actions :- 
@@ -40,6 +36,6 @@ the payment method tell that cash was received for that transaction, so that i g
 corresponding Category column as there was relation between Category and item name. So by not removing missing values I have not missed the 
 valuable information of that transaction. 
 
-
+Final Result :- The dataset was successfully cleaned and structured, making it ready for analysis, reporting, and visualization tasks.
 N/A Handling :-  Discount column has True, False and N/A values. Replaced N/A value by 'False' as generally in retail there is True only
 if discount is given.
