@@ -36,5 +36,10 @@ Removing Duplicates: Checked for duplicate records. (Not found)
 Conditional Columns: Created a new columns price per qty based on total spent and quantity. Imputed missing quantity as a '1' because 
 the payment method tell that cash was received for that transaction, so that i got total spent values also.
 
+'Key insight' = In the first attempt I directly removed the missing values of 'item' column (as they were only 5%) and due to removing them other columns missing values are also got deleted. After that continued the cleaning and EDA. In the 2nd attempt decided to impute missing values from
+corresponding Category column as there was relation between Category and item name. So by not removing missing values I have not missed the 
+valuable information of that transaction. 
+
+
 N/A Handling :-  Discount column has True, False and N/A values. Replaced N/A value by 'False' as generally in retail there is True only
 if discount is given.
